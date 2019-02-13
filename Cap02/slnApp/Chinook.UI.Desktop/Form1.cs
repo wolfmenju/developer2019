@@ -20,10 +20,11 @@ namespace Chinook.UI.Desktop
 
         private void btnBuscar_Click(object sender, EventArgs e)
         {
-            var da = new ArtistDA();
+            var da = new GenreDA();
             var filtro = $"{txtBusquedaNombre.Text.Trim()}%";
 
-            var result = da.GetArtists(filtro);
+            var result = da.GetGenreWithSP(filtro);
+            // var result = da.GetArtistsWithSP(filtro);
             dgvBuscar.DataSource = result;
             dgvBuscar.Refresh();
         }

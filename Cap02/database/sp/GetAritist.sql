@@ -1,0 +1,10 @@
+CREATE PROCEDURE usp_GEtArtist
+(
+	@pNombre NVARCHAR(100)
+)
+as
+
+BEGIN
+	SELECT ArtistId,Name FROM Artist
+	WHERE NAME LIKE ''
+END

@@ -32,5 +32,36 @@ namespace Chinook.Data.Test
             Assert.IsTrue(da.GetArtists("a%").Count > 0);
 
         }
+
+        [TestMethod]
+        public void InsertArtistTest()
+        {
+            var da = new ArtistDA();
+            var nuevoArtista = da.InsertArtits(
+            new Entities.Artist()
+            {
+                Name = "Nuevo Artista" + Guid.NewGuid().ToString()
+            });
+            Assert.IsTrue(nuevoArtista > 0);
+            }
+
+        [TestMethod]
+
+        public void InsertArtiWithOutPutTest()
+        {
+            var da = new ArtistDA();
+            var nuevoArtista = da.InsertArtitsWithOutPut(
+            new Entities.Artist()
+            {
+                Name = "Nuevo Artista" + Guid.NewGuid().ToString()
+            });
+            Assert.IsTrue(nuevoArtista > 0);
+        }
     }
-}
+
+         
+    }
+
+      
+    
+
