@@ -57,6 +57,18 @@ namespace Chinook.Data.Test
             });
             Assert.IsTrue(nuevoArtista > 0);
         }
+
+        [TestMethod]
+        public void InsertArtitsWithTX()
+        {
+            var da = new ArtistDA();
+            var nuevoArtista = da.InsertArtitsWithTX(
+            new Entities.Artist()
+            {
+                Name = "Nuevo Artista" + Guid.NewGuid().ToString()
+            });
+            Assert.IsTrue(nuevoArtista > 0);
+        }
     }
 
          

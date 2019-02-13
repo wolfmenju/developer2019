@@ -194,5 +194,43 @@ namespace Chinook.Data
 
             return result;
         }
+
+        //
+        public int InsertArtitsWithTX(Artist entity)
+        {
+            var result = 0;
+
+            using (IDbConnection cn = new SqlConnection(GetConnection()))
+            {
+                cn.Open();
+                //Local Tranasaction
+
+                var transaction = cn.BeginTransaction();
+
+                try
+                {
+
+                    IDbCommand command = new SqlCommand("usp_InsertArtistX");
+                    command.Connection = cn;
+                    command.Transaction = transaction;//LOCAL TRANSACTION
+                    command.CommandType = CommandType.StoredProcedure;
+                    command.Parameters.Add(new SqlParameter("@Name", entity.Name));
+
+                    result = Convert.ToInt32(command.ExecuteScalar());
+
+                    //Confirmando la transaction local
+                    transaction.Commit();
+
+                }
+                catch (Exception ex)
+                {
+                    transaction.Rollback();
+                    result = 0;
+                }
+
+ }
+
+            return result;
+        }
     }
 }
