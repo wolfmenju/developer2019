@@ -6,6 +6,7 @@ using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Transactions;
 
 namespace Chinook.Data
 {
@@ -218,6 +219,8 @@ namespace Chinook.Data
 
                     result = Convert.ToInt32(command.ExecuteScalar());
 
+                   //throw new Exception("Error al insertar")
+
                     //Confirmando la transaction local
                     transaction.Commit();
 
@@ -228,9 +231,101 @@ namespace Chinook.Data
                     result = 0;
                 }
 
- }
+            }
 
             return result;
+        }
+        //update
+        public int UpdateArtitsWithTX(Artist entity)
+        {
+            var result = 0;
+
+            using (IDbConnection cn = new SqlConnection(GetConnection()))
+            {
+                cn.Open();
+                //Local Tranasaction
+
+                var transaction = cn.BeginTransaction();
+
+                try
+                {
+
+                    IDbCommand command = new SqlCommand("usp_UpdateArtistX");
+                    command.Connection = cn;
+                    command.Transaction = transaction;//LOCAL TRANSACTION
+                    command.CommandType = CommandType.StoredProcedure;
+                    command.Parameters.Add(new SqlParameter("@Name", entity.Name));
+
+                    result = Convert.ToInt32(command.ExecuteScalar());
+
+                    //throw new Exception("Error al insertar")
+
+                    //Confirmando la transaction local
+                    transaction.Commit();
+
+                }
+                catch (Exception ex)
+                {
+                    transaction.Rollback();
+                    result = 0;
+                }
+
+            }
+
+            return result;
+        }
+
+        //distribu
+        public int InsertArtitsWithTXDsitr(Artist entity)
+        {
+            var result = 0;
+
+            using (var tx = new TransactionScope())
+            {
+
+
+                using (IDbConnection cn = new SqlConnection(GetConnection()))
+                {
+                    cn.Open();
+                    //Local Tranasaction
+
+                    var transaction = cn.BeginTransaction();
+
+                    try
+                    {
+
+                        IDbCommand command = new SqlCommand("usp_InsertArtist");
+                        command.Connection = cn;
+                        command.Transaction = transaction;//LOCAL TRANSACTION
+                        command.CommandType = CommandType.StoredProcedure;
+                        command.Parameters.Add(new SqlParameter("@Name", entity.Name));
+
+                        result = Convert.ToInt32(command.ExecuteScalar());
+
+                        //throw new Exception("Error al insertar")
+
+                        //Confirmando la transaction local
+                        //  transaction.Commit();
+                        tx.Complete();
+
+                    }
+
+                    catch (Exception ex)
+                    {
+                        //transaction.Rollback();
+                        // result = 0;
+                    }
+
+
+
+                }
+
+
+
+            }
+
+            return result;
+
         }
     }
 }
