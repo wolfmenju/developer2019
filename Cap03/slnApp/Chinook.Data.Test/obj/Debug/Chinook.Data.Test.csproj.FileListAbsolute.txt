@@ -63,3 +63,26 @@ D:\VSDEVELOPER\LabGitHub\developer2019\Cap03\slnApp\Chinook.Data.Test\obj\Debug\
 D:\VSDEVELOPER\LabGitHub\developer2019\Cap03\slnApp\Chinook.Data.Test\obj\Debug\Chinook.Data.Test.csproj.CopyComplete
 D:\VSDEVELOPER\LabGitHub\developer2019\Cap03\slnApp\Chinook.Data.Test\obj\Debug\Chinook.Data.Test.dll
 D:\VSDEVELOPER\LabGitHub\developer2019\Cap03\slnApp\Chinook.Data.Test\obj\Debug\Chinook.Data.Test.pdb
+J:\PROYECTOS VS2019\Chinook\developer2019\Cap03\slnApp\Chinook.Data.Test\obj\Debug\Chinook.Data.Test.csprojAssemblyReference.cache
+J:\PROYECTOS VS2019\Chinook\developer2019\Cap03\slnApp\Chinook.Data.Test\obj\Debug\Chinook.Data.Test.csproj.CoreCompileInputs.cache
+J:\PROYECTOS VS2019\Chinook\developer2019\Cap03\slnApp\Chinook.Data.Test\obj\Debug\Chinook.Data.Test.dll
+J:\PROYECTOS VS2019\Chinook\developer2019\Cap03\slnApp\Chinook.Data.Test\obj\Debug\Chinook.Data.Test.pdb
+J:\PROYECTOS VS2019\Chinook\developer2019\Cap03\slnApp\Chinook.Data.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+J:\PROYECTOS VS2019\Chinook\developer2019\Cap03\slnApp\Chinook.Data.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+J:\PROYECTOS VS2019\Chinook\developer2019\Cap03\slnApp\Chinook.Data.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+J:\PROYECTOS VS2019\Chinook\developer2019\Cap03\slnApp\Chinook.Data.Test\bin\Debug\es\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+J:\PROYECTOS VS2019\Chinook\developer2019\Cap03\slnApp\Chinook.Data.Test\bin\Debug\es\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+J:\PROYECTOS VS2019\Chinook\developer2019\Cap03\slnApp\Chinook.Data.Test\bin\Debug\es\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+J:\PROYECTOS VS2019\Chinook\developer2019\Cap03\slnApp\Chinook.Data.Test\bin\Debug\Chinook.Data.Test.dll
+J:\PROYECTOS VS2019\Chinook\developer2019\Cap03\slnApp\Chinook.Data.Test\bin\Debug\Chinook.Data.Test.pdb
+J:\PROYECTOS VS2019\Chinook\developer2019\Cap03\slnApp\Chinook.Data.Test\bin\Debug\Chinook.Data.dll
+J:\PROYECTOS VS2019\Chinook\developer2019\Cap03\slnApp\Chinook.Data.Test\bin\Debug\Chinook.Entities.dll
+J:\PROYECTOS VS2019\Chinook\developer2019\Cap03\slnApp\Chinook.Data.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+J:\PROYECTOS VS2019\Chinook\developer2019\Cap03\slnApp\Chinook.Data.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+J:\PROYECTOS VS2019\Chinook\developer2019\Cap03\slnApp\Chinook.Data.Test\bin\Debug\Dapper.dll
+J:\PROYECTOS VS2019\Chinook\developer2019\Cap03\slnApp\Chinook.Data.Test\bin\Debug\Chinook.Data.pdb
+J:\PROYECTOS VS2019\Chinook\developer2019\Cap03\slnApp\Chinook.Data.Test\bin\Debug\Chinook.Entities.pdb
+J:\PROYECTOS VS2019\Chinook\developer2019\Cap03\slnApp\Chinook.Data.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+J:\PROYECTOS VS2019\Chinook\developer2019\Cap03\slnApp\Chinook.Data.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+J:\PROYECTOS VS2019\Chinook\developer2019\Cap03\slnApp\Chinook.Data.Test\bin\Debug\Dapper.xml
+J:\PROYECTOS VS2019\Chinook\developer2019\Cap03\slnApp\Chinook.Data.Test\obj\Debug\Chinook.Data.Test.csproj.CopyComplete

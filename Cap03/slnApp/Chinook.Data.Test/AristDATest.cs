@@ -81,6 +81,21 @@ namespace Chinook.Data.Test
             });
             Assert.IsTrue(nuevoArtista > 0);
         }
+
+        [TestMethod]
+        public void UpdateArtistTest()
+        {
+            var da = new ArtistDA();
+            var actualiArti = da.UpdateArtist(
+            new Entities.Artist()
+            {
+                Name = "Actualiza" + Guid.NewGuid().ToString()
+            });
+              Assert.IsTrue(actualiArti=true);
+              
+
+
+        }
     }
 
          
