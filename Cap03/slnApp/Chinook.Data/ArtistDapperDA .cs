@@ -47,10 +47,10 @@ namespace Chinook.Data
         public List<Artist> GetArtistsWithSP(string filterByName)
         {
             var result = new List<Artist>();
-            var sql = "usp_GEtArtist";
+            var sql = "usp_GetArtistSp";
             using (IDbConnection cn = new SqlConnection(GetConnection()))
             {
-                result=cn.Query<Artist>(sql, new { pNombre = filterByName },commandType:CommandType.StoredProcedure).ToList();
+                result=cn.Query<Artist>(sql, new { Name = filterByName },commandType:CommandType.StoredProcedure).ToList();
             }
 
             return result;
@@ -63,7 +63,7 @@ namespace Chinook.Data
             var sql = "SELECT ArtistId,Name FROM Artist WHERE Name like @name";
             using (IDbConnection cn = new SqlConnection(GetConnection()))
             {
-                result = cn.Query<Artist>(sql, new { name = filterByName }, commandType: CommandType.StoredProcedure).ToList();
+                result = cn.Query<Artist>(sql, new { name = filterByName },commandType:CommandType.Text).ToList();
 
             }
 
@@ -76,9 +76,7 @@ namespace Chinook.Data
 
             using (IDbConnection cn = new SqlConnection(GetConnection()))
             {
-                result=cn.Query<int>("usp_InsertArtistX", new { Name = entity.Name }, commandType: CommandType.StoredProcedure).Single();
-
-               
+                result=cn.Query<int>("usp_InsertArtistX", new { Name = entity.Name }, commandType: CommandType.StoredProcedure).Single();   
             }
 
                 return result;
