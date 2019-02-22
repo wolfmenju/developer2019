@@ -284,7 +284,6 @@ namespace Chinook.Data
             using (var tx = new TransactionScope())
             {
 
-
                 using (IDbConnection cn = new SqlConnection(GetConnection()))
                 {
                     cn.Open();
@@ -333,16 +332,33 @@ namespace Chinook.Data
 
         public bool UpdateArtist(Artist entity)
         {
-
             var result = false;
 
             using (IDbConnection cn = new SqlConnection(GetConnection()))
             {
-                cn.Query("usp_UpdateArtist", new { Name = entity.Name }, commandType: CommandType.StoredProcedure);
+                cn.Open();
+                IDbCommand command = new SqlCommand("usp_UpdateArtistX");
+                command.Connection = cn;
+                command.CommandType = CommandType.StoredProcedure;
+                command.Parameters.Add(new SqlParameter("@ID", entity.ArtistId));
+                command.Parameters.Add(new SqlParameter("@Name", entity.Name));
+
                 result = true;
             }
 
             return result;
+
+            /*
+            var result = false;
+
+            using (IDbConnection cn = new SqlConnection(GetConnection()))
+            {
+                cn.Query("usp_UpdateArtistX", new { Name = entity.Name }, commandType: CommandType.StoredProcedure);
+                result = true;
+            }
+
+            return result;
+            */
         }
     }
 }

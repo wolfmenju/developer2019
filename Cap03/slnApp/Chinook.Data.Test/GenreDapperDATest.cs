@@ -78,16 +78,6 @@ namespace Chinook.Data.Test
             Assert.IsTrue(nuevoArtista > 0);
         }
 
-        [TestMethod]
-        public void UpdateGenreTest()
-        {
-            var da = new GenereDapperDA();
-            var nuevoGene = da.UpdateGenre(
-            new Entities.Genre()
-            {
-                Name = "Actualiza" + Guid.NewGuid().ToString()
-            });
-            Assert.IsTrue(da.UpdateGenre());
-        }
+       
     }
 }

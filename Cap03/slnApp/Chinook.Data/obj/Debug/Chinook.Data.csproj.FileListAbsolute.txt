@@ -27,3 +27,14 @@ D:\VSDEVELOPER\LabGitHub\developer2019\Cap03\slnApp\Chinook.Data\obj\Debug\Chino
 D:\VSDEVELOPER\LabGitHub\developer2019\Cap03\slnApp\Chinook.Data\obj\Debug\Chinook.Data.csproj.CopyComplete
 D:\VSDEVELOPER\LabGitHub\developer2019\Cap03\slnApp\Chinook.Data\obj\Debug\Chinook.Data.dll
 D:\VSDEVELOPER\LabGitHub\developer2019\Cap03\slnApp\Chinook.Data\obj\Debug\Chinook.Data.pdb
+J:\PROYECTOS VS2019\Chinook\developer2019\Cap03\slnApp\Chinook.Data\bin\Debug\Chinook.Data.dll
+J:\PROYECTOS VS2019\Chinook\developer2019\Cap03\slnApp\Chinook.Data\bin\Debug\Chinook.Data.pdb
+J:\PROYECTOS VS2019\Chinook\developer2019\Cap03\slnApp\Chinook.Data\bin\Debug\Chinook.Entities.dll
+J:\PROYECTOS VS2019\Chinook\developer2019\Cap03\slnApp\Chinook.Data\bin\Debug\Dapper.dll
+J:\PROYECTOS VS2019\Chinook\developer2019\Cap03\slnApp\Chinook.Data\bin\Debug\Chinook.Entities.pdb
+J:\PROYECTOS VS2019\Chinook\developer2019\Cap03\slnApp\Chinook.Data\bin\Debug\Dapper.xml
+J:\PROYECTOS VS2019\Chinook\developer2019\Cap03\slnApp\Chinook.Data\obj\Debug\Chinook.Data.csprojAssemblyReference.cache
+J:\PROYECTOS VS2019\Chinook\developer2019\Cap03\slnApp\Chinook.Data\obj\Debug\Chinook.Data.csproj.CoreCompileInputs.cache
+J:\PROYECTOS VS2019\Chinook\developer2019\Cap03\slnApp\Chinook.Data\obj\Debug\Chinook.Data.csproj.CopyComplete
+J:\PROYECTOS VS2019\Chinook\developer2019\Cap03\slnApp\Chinook.Data\obj\Debug\Chinook.Data.dll
+J:\PROYECTOS VS2019\Chinook\developer2019\Cap03\slnApp\Chinook.Data\obj\Debug\Chinook.Data.pdb

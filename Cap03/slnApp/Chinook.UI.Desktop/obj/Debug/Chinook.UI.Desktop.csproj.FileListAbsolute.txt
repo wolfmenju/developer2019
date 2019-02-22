@@ -28,3 +28,20 @@ D:\VSDEVELOPER\LabGitHub\developer2019\Cap02\slnApp\Chinook.UI.Desktop\obj\Debug
 D:\VSDEVELOPER\LabGitHub\developer2019\Cap02\slnApp\Chinook.UI.Desktop\obj\Debug\Chinook.UI.Desktop.csproj.CopyComplete
 D:\VSDEVELOPER\LabGitHub\developer2019\Cap02\slnApp\Chinook.UI.Desktop\obj\Debug\Chinook.UI.Desktop.exe
 D:\VSDEVELOPER\LabGitHub\developer2019\Cap02\slnApp\Chinook.UI.Desktop\obj\Debug\Chinook.UI.Desktop.pdb
+J:\PROYECTOS VS2019\Chinook\developer2019\Cap03\slnApp\Chinook.UI.Desktop\bin\Debug\Chinook.UI.Desktop.exe.config
+J:\PROYECTOS VS2019\Chinook\developer2019\Cap03\slnApp\Chinook.UI.Desktop\bin\Debug\Chinook.UI.Desktop.exe
+J:\PROYECTOS VS2019\Chinook\developer2019\Cap03\slnApp\Chinook.UI.Desktop\bin\Debug\Chinook.UI.Desktop.pdb
+J:\PROYECTOS VS2019\Chinook\developer2019\Cap03\slnApp\Chinook.UI.Desktop\bin\Debug\Chinook.Data.dll
+J:\PROYECTOS VS2019\Chinook\developer2019\Cap03\slnApp\Chinook.UI.Desktop\bin\Debug\Chinook.Entities.dll
+J:\PROYECTOS VS2019\Chinook\developer2019\Cap03\slnApp\Chinook.UI.Desktop\bin\Debug\Dapper.dll
+J:\PROYECTOS VS2019\Chinook\developer2019\Cap03\slnApp\Chinook.UI.Desktop\bin\Debug\Chinook.Data.pdb
+J:\PROYECTOS VS2019\Chinook\developer2019\Cap03\slnApp\Chinook.UI.Desktop\bin\Debug\Chinook.Entities.pdb
+J:\PROYECTOS VS2019\Chinook\developer2019\Cap03\slnApp\Chinook.UI.Desktop\bin\Debug\Dapper.xml
+J:\PROYECTOS VS2019\Chinook\developer2019\Cap03\slnApp\Chinook.UI.Desktop\obj\Debug\Chinook.UI.Desktop.csprojAssemblyReference.cache
+J:\PROYECTOS VS2019\Chinook\developer2019\Cap03\slnApp\Chinook.UI.Desktop\obj\Debug\Chinook.UI.Desktop.Form1.resources
+J:\PROYECTOS VS2019\Chinook\developer2019\Cap03\slnApp\Chinook.UI.Desktop\obj\Debug\Chinook.UI.Desktop.Properties.Resources.resources
+J:\PROYECTOS VS2019\Chinook\developer2019\Cap03\slnApp\Chinook.UI.Desktop\obj\Debug\Chinook.UI.Desktop.csproj.GenerateResource.cache
+J:\PROYECTOS VS2019\Chinook\developer2019\Cap03\slnApp\Chinook.UI.Desktop\obj\Debug\Chinook.UI.Desktop.csproj.CoreCompileInputs.cache
+J:\PROYECTOS VS2019\Chinook\developer2019\Cap03\slnApp\Chinook.UI.Desktop\obj\Debug\Chinook.UI.Desktop.csproj.CopyComplete
+J:\PROYECTOS VS2019\Chinook\developer2019\Cap03\slnApp\Chinook.UI.Desktop\obj\Debug\Chinook.UI.Desktop.exe
+J:\PROYECTOS VS2019\Chinook\developer2019\Cap03\slnApp\Chinook.UI.Desktop\obj\Debug\Chinook.UI.Desktop.pdb
