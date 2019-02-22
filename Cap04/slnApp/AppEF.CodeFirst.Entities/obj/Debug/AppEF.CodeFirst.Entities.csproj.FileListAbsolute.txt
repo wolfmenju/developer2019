@@ -1,0 +1,5 @@
+D:\VSDEVELOPER\LabGitHub\developer2019\Cap04\slnApp\AppEF.CodeFirst.Entities\obj\Debug\AppEF.CodeFirst.Entities.csproj.CoreCompileInputs.cache
+D:\VSDEVELOPER\LabGitHub\developer2019\Cap04\slnApp\AppEF.CodeFirst.Entities\bin\Debug\AppEF.CodeFirst.Entities.dll
+D:\VSDEVELOPER\LabGitHub\developer2019\Cap04\slnApp\AppEF.CodeFirst.Entities\bin\Debug\AppEF.CodeFirst.Entities.pdb
+D:\VSDEVELOPER\LabGitHub\developer2019\Cap04\slnApp\AppEF.CodeFirst.Entities\obj\Debug\AppEF.CodeFirst.Entities.dll
+D:\VSDEVELOPER\LabGitHub\developer2019\Cap04\slnApp\AppEF.CodeFirst.Entities\obj\Debug\AppEF.CodeFirst.Entities.pdb
