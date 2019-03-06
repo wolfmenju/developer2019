@@ -7,7 +7,7 @@ using App.Entities.Base;
 
 namespace App.DataAccess.Repository.Interface
 {
-    public interface IArtistRepository:IGenericRepository<Artist>
+    public interface IArtistRepository : IGenericRepository<Artist>
     {
         //void Add(Artist entity);
         //int Count();
@@ -15,6 +15,8 @@ namespace App.DataAccess.Repository.Interface
         //IEnumerable<Artist> GetAll();
         //void Update(Artist entity);
         //void Remove(Artist entity);
+
+       // IEnumerable
 
     }
 }

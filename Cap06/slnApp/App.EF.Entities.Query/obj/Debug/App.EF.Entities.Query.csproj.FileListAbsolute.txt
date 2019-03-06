@@ -12,7 +12,6 @@ C:\vsdeveloper2017\LabGitHub\Cap05\slnApp\App.EF.Entities.Query\obj\Debug\App.EF
 C:\vsdeveloper2017\LabGitHub\Cap05\slnApp\App.EF.Entities.Query\obj\Debug\App.EF.Entities.Query.pdb
 D:\VSDEVELOPER\LabGitHub\developer2019\Cap06\slnApp\App.EF.Entities.Query\bin\Debug\App.EF.Entities.Query.dll
 D:\VSDEVELOPER\LabGitHub\developer2019\Cap06\slnApp\App.EF.Entities.Query\bin\Debug\App.EF.Entities.Query.pdb
-D:\VSDEVELOPER\LabGitHub\developer2019\Cap06\slnApp\App.EF.Entities.Query\obj\Debug\App.EF.Entities.Query.csprojAssemblyReference.cache
 D:\VSDEVELOPER\LabGitHub\developer2019\Cap06\slnApp\App.EF.Entities.Query\obj\Debug\App.EF.Entities.Query.csproj.CoreCompileInputs.cache
 D:\VSDEVELOPER\LabGitHub\developer2019\Cap06\slnApp\App.EF.Entities.Query\obj\Debug\App.EF.Entities.Query.dll
 D:\VSDEVELOPER\LabGitHub\developer2019\Cap06\slnApp\App.EF.Entities.Query\obj\Debug\App.EF.Entities.Query.pdb

@@ -13,3 +13,7 @@ D:\VSDEVELOPER\LabGitHub\developer2019\Cap06\slnApp\App.DataAccess.Repository\ob
 D:\VSDEVELOPER\LabGitHub\developer2019\Cap06\slnApp\App.DataAccess.Repository\bin\Debug\App.Entities.Base.dll
 D:\VSDEVELOPER\LabGitHub\developer2019\Cap06\slnApp\App.DataAccess.Repository\bin\Debug\App.Entities.Base.pdb
 D:\VSDEVELOPER\LabGitHub\developer2019\Cap06\slnApp\App.DataAccess.Repository\bin\Debug\App.Entities.Base.dll.config
+D:\VSDEVELOPER\LabGitHub\developer2019\Cap06\slnApp\App.DataAccess.Repository\bin\Debug\App.DataAccess.Repository.Interface.dll
+D:\VSDEVELOPER\LabGitHub\developer2019\Cap06\slnApp\App.DataAccess.Repository\bin\Debug\App.DataAccess.Repository.Interface.pdb
+D:\VSDEVELOPER\LabGitHub\developer2019\Cap06\slnApp\App.DataAccess.Repository\bin\Debug\App.Entities.Queries.dll
+D:\VSDEVELOPER\LabGitHub\developer2019\Cap06\slnApp\App.DataAccess.Repository\bin\Debug\App.Entities.Queries.pdb

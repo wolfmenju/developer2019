@@ -1,0 +1,6 @@
+D:\VSDEVELOPER\LabGitHub\developer2019\Cap06\slnApp\App.Entities.Queries\bin\Debug\App.Entities.Queries.dll
+D:\VSDEVELOPER\LabGitHub\developer2019\Cap06\slnApp\App.Entities.Queries\bin\Debug\App.Entities.Queries.pdb
+D:\VSDEVELOPER\LabGitHub\developer2019\Cap06\slnApp\App.Entities.Queries\obj\Debug\App.Entities.Queries.csprojAssemblyReference.cache
+D:\VSDEVELOPER\LabGitHub\developer2019\Cap06\slnApp\App.Entities.Queries\obj\Debug\App.Entities.Queries.csproj.CoreCompileInputs.cache
+D:\VSDEVELOPER\LabGitHub\developer2019\Cap06\slnApp\App.Entities.Queries\obj\Debug\App.Entities.Queries.dll
+D:\VSDEVELOPER\LabGitHub\developer2019\Cap06\slnApp\App.Entities.Queries\obj\Debug\App.Entities.Queries.pdb

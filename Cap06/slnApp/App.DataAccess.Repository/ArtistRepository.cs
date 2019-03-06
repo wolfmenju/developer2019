@@ -2,6 +2,7 @@
 using App.Entities.Base;
 using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,6 +11,10 @@ namespace App.DataAccess.Repository
 {
     public class ArtistRepository : GenereicRepository<Artist>, IArtistRepository
     {
+        public ArtistRepository(DbContext context):base(context)
+        {
+
+        }
         //private AppDataModel _context;
 
         //public ArtistRepository()

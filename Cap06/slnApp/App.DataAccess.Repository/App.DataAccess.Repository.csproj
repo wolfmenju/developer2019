@@ -52,6 +52,8 @@
   <ItemGroup>
     <Compile Include="AppDataModel.cs" />
     <Compile Include="AlbumRepository.cs" />
+    <Compile Include="AppUnitOfWordk.cs" />
+    <Compile Include="TrackRepository.cs" />
     <Compile Include="GenericRepository.cs" />
     <Compile Include="ArtistRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -68,6 +70,10 @@
     <ProjectReference Include="..\App.Entities.Base\App.Entities.Base.csproj">
       <Project>{8a998da2-9992-4051-b39b-9f22e6efddd0}</Project>
       <Name>App.Entities.Base</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\App.Entities.Queries\App.Entities.Queries.csproj">
+      <Project>{C5ABF511-A05E-4B2D-A49A-A4EC08A75EA0}</Project>
+      <Name>App.Entities.Queries</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

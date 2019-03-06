@@ -2,20 +2,22 @@
 using App.Entities.Base;
 using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace App.DataAccess.Repository
 {
     public class GenereicRepository<TEntity> : IGenericRepository<TEntity>
-        where TEntity:class
+        where TEntity : class
     {
-        private AppDataModel _context;
+        protected readonly DbContext _context;
 
-        public GenereicRepository()
+        public GenereicRepository(DbContext pContext)
         {
-            _context = new AppDataModel();
+            _context = pContext;
         }
 
 
@@ -32,14 +34,41 @@ namespace App.DataAccess.Repository
             //Se confirma la transaccion
             _context.SaveChanges();
 
-           // return entity.ArtistId;
+            // return entity.ArtistId;
 
         }
 
-        public IEnumerable<TEntity> GetAll()
+        public TEntity FindEntity<TID>(Expression<Func<TEntity, bool>> filter)
+        {
+            return _context.Set<TEntity>().Where(filter).FirstOrDefault();
+        }
+
+        public IEnumerable<TEntity> GetAll(
+            Expression<Func<TEntity, bool>> filter = null,
+            Func<IQueryable<TEntity>, IOrderedQueryable<TEntity>> orderby = null,
+            string includeProperties = ""
+            )
         {
             IQueryable<TEntity> query = _context.Set<TEntity>();
-            return query.ToList();
+
+            if (filter != null)
+            {
+                query = query.Where(filter);
+            }
+            foreach (var includeProperty in includeProperties.Split( new char[] {','},StringSplitOptions.RemoveEmptyEntries))
+            {
+                query = query.Include(includeProperty);
+            }
+            if (orderby != null)
+            {
+                return orderby(query).ToList();
+            }
+            else
+            {
+                return query.ToList();
+            }
+
+            
            
         }
 

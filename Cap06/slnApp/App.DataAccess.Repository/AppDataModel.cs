@@ -11,19 +11,19 @@ namespace App.DataAccess.Repository
         public AppDataModel()
             : base("name=cnxAppDataModel")
         {
-        }
 
-        public virtual DbSet<Album> Album { get; set; }
-        public virtual DbSet<Artist> Artist { get; set; }
-        public virtual DbSet<Customer> Customer { get; set; }
-        public virtual DbSet<Employee> Employee { get; set; }
-        public virtual DbSet<Genre> Genre { get; set; }
-        public virtual DbSet<Invoice> Invoice { get; set; }
-        public virtual DbSet<InvoiceLine> InvoiceLine { get; set; }
-        public virtual DbSet<MediaType> MediaType { get; set; }
-        public virtual DbSet<Playlist> Playlist { get; set; }
-        public virtual DbSet<Track> Track { get; set; }
-        public virtual DbSet<Users> Users { get; set; }
+            Database.SetInitializer<AppDataModel>(null);
+
+            //Deshabilitando la carga pesada (información
+            //relacionada)            
+            this.Configuration.LazyLoadingEnabled = false;
+
+            this.Configuration.ProxyCreationEnabled = false;
+
+            this.Configuration.AutoDetectChangesEnabled = false;
+
+            this.Configuration.ValidateOnSaveEnabled = false;
+        }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
